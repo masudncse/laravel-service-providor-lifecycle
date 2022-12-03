@@ -11,6 +11,9 @@ use Illuminate\Log\Logger;
  */
 class TodoFactory
 {
+    /**
+     * @param array $items
+     */
     public function setMany($items = [])
     {
         $collection = collect($items);
